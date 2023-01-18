@@ -1,0 +1,37 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "dev":"next dev -H 0.0.0.0",
+      "build":"next build",
+      "pritter":"pritter -write ."
+      "lint":"next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zouziszzm/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zouziszzm/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Zouziszzm/Portfolio#readme",
+  "dependencies": {
+    "@chakra-ui/react": "^2.4.9",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "framer-motion": "^8.5.0",
+    "next": "^13.1.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-next": "^13.1.2",
+    "prettier": "^2.8.3"
+  }
+}
