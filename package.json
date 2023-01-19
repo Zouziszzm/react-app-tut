@@ -1,12 +1,11 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A Portfolio website of farhaan cpy of Takuya craftz dog",
   "scripts": {
       "dev":"next dev -H 0.0.0.0",
       "build":"next build",
-      "pritter":"pritter -write ."
+      "pritter":"pritter -write .",
       "lint":"next lint"
   },
   "repository": {
@@ -14,7 +13,7 @@
     "url": "git+https://github.com/Zouziszzm/Portfolio.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Al farhaan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Zouziszzm/Portfolio/issues"
