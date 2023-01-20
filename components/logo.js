@@ -22,12 +22,17 @@ const Logo = () =>
     const logoImage = `/images/star${useColorModeValue('','-dark ').gif}`
 
     return(
-        <Link href="/">
+        <Link legacyBehavior href="/">
             <a>
                 <LogoBox>
-                    <Image src={star} width={20} height={20} alt="logo"/>
+                    <Image src={logoImage} width={20} height={20} alt="logo"/>
                     <Text color={useColorModeValue('gray.800','whiteAlpha.900')}
-                            fontFamily='M PLUS rounded 1c '>
+                     fontFamily='M PLUS rounded 1c '
+                     fontWeight="bold"
+                     ml={3}
+                    >
+                     Al farhaan khan I I           
+                    </Text>
                 </LogoBox>
             </a>
         </Link>

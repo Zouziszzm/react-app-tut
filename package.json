@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "A Portfolio website of farhaan cpy of Takuya craftz dog",
   "scripts": {
-      "dev":"next dev -H 0.0.0.0",
-      "build":"next build",
-      "pritter":"pritter -write .",
-      "lint":"next lint"
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "pritter": "pritter -write .",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Zouziszzm/Portfolio#readme",
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.17",
     "@chakra-ui/react": "^2.4.9",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
