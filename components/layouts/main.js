@@ -1,13 +1,13 @@
-import head from 'next/head'
+import Head from 'next/head'
 import Navbar from '../navbar.js'
 import {Box , Container } from '@chakra-ui/react'
 const Main = ({children, router}) => {
     return(
         <Box as="main" pb={8}>
-            <head>
+            <Head>
                 <meta name="vieport" content="width=device-width, inital-scale=1"/>
                 <title>Al Farhaan Khan</title>
-            </head>
+            </Head>
 
             <Navbar path={router.asPath}/>
 
