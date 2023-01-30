@@ -3,7 +3,7 @@ import Navbar from './Components/Navbar.js'
 function App() {
   return (
       <>
-      <Navbar/>
+      <Navbar lName="Alfarhaan"/>
       </>
   );
 }
