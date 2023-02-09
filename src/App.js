@@ -1,6 +1,6 @@
 import React from 'react'
 import {useEffect} from 'react'
-
+import main 
 const App = () => {
     
     const searchAnime = async (title) =>{
