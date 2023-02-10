@@ -1,6 +1,6 @@
 import React from 'react'
 import {useEffect} from 'react'
-
+//add a api to call movi database and next page for anime database.
 const App = () => {
     
     const searchAnime = async (title) =>{
