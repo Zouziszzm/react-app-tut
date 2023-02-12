@@ -1,0 +1,17 @@
+*
+{
+  box-sizing: border-box;
+}
+.Nav-head
+{
+  text-align: center;
+}
+.nav-items
+{
+  vertical-align: middle;
+  padding: 5px;
+  margin: 2px 5px;
+  text-decoration: none;
+  font-size: medium;
+  font-weight: 500;
+}
