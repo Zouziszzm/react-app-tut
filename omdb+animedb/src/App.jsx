@@ -6,7 +6,7 @@ function App() {
 	const [search, SetSearch] = useState("");
 
 	const GetTopAnime = async () => {
-		const temp = await fetch(`https://api.jikan.moe/v3/top/anime/1/bypopularity`)
+		const temp = await fetch(`https://api.jikan.moe/v3/top/anime/1/bypopularity` )
 			.then(res => res.json());
 
 		SetTopAnime(temp.top.slice(0, 5));
@@ -30,7 +30,7 @@ function App() {
 	}, []);
 	
 	return (
-		<div className="App">
+		<div className="App" >
 			<Header />
 			<div className="content-wrap">
 				<Sidebar 
