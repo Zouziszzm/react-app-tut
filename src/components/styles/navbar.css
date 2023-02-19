@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+*
+{
+    box-sizing: border-box;
+    font-family: 'Shadows Into Light', cursive;
+}
+body
+{
+    margin: 0px;
+}
+.Heading
+{
+    margin: 0px 0px;
+    color: grey;
+}
+.Navbar-holder
+{
+    text-align: center;
+    padding: 5px 5px;
+}
+.items-holder
+{
+    margin: 1px 1px;
+    padding: 1px 1px;
+}
+.items
+{
+    border: 1px solid darkgray;
+    border-radius: 2px;
+    padding: 0px 5px;
+    letter-spacing: 1.3px;
+    font-size: larger;
+    text-decoration: none;
+    margin: 0px 7px;
+    color: cyan;
+}
