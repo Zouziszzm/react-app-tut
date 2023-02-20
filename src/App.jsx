@@ -1,6 +1,7 @@
 import './App.css'
 import Navbar from './components/navbar.jsx'
 import Sidebar from './components/Sidebar.jsx'
+import Mainsec from './components/mainsec.jsx'
 import {useState, useEffect} from 'react'
 
 function App() {
@@ -10,8 +11,10 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Sidebar>
-      </Sidebar>
+      <div className="holder">
+        <Sidebar/>
+        <Mainsec/>
+      </div>
     </div>
   )
 }
