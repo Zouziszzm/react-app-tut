@@ -1,17 +1,29 @@
+@media screen and (max-width: 768px) {
+  .side-cont {
+    display: none;
+  }
+}
+.side-Bar
+{
+    max-width: 25%;
+    display: inline-block;
+}
 .side-cont
 {
+    
     border: 1px solid darkkhaki;
     margin: 0px 15px;
-    max-width: 25%;
 }
 .side-head
 {
-    letter-spacing: 1.5px;
     text-align: center;
+    letter-spacing: 1.5px;
 }
-.side-a-list
+.card-wrap
 {
+    margin: 5px auto 5px auto;
+    border: 1px solid green;
+    padding: 20px;
+    width: 80%;
     display: flex;
-    justify-content: center;   
 }
-
