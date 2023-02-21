@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <div className="holder">
-        <Sidebar/>
+        <Sidebar topanime={topanime}/>
         <Mainsec/>
       </div>
     </div>
