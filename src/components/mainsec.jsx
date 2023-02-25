@@ -3,10 +3,9 @@ function Mainsec() {
   return (
     <div className="main">
         <form className="search-box">
-            <div>
-                
-            </div>
-            <input type="search" placeholder="search" required />
+            <input type="search" placeholder="search" required 
+                onChange={(e)=> setSearch(e.target.value)}  
+            />
         </form>
     </div>
   )
