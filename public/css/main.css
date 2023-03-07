@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.main
+{
+    color: #333;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}
+.heading-div
+{
+    border: 1px solid yellow;
+    padding: 15px 0px 0px 0px;
+}
+.heading-style
+{
+    letter-spacing: 1.3px;
+}
+.items
+{
+    cursor: pointer;
+    display: inline-block;
+    margin: 0px 7px;
+    letter-spacing: 1.3px;
+    font-weight: bold;
+}
